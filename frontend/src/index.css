@@ -1,2 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
 @import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
 
+
+* {
+    font-family: "Google Sans Code", monospace;
+}
+
+.card {
+    @apply bg-white p-6 rounded-2xl shadow-md shadow-gray-100 border border-gray-200/50  mt-10;
+}
